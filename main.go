@@ -37,7 +37,7 @@ func main() {
 		Path:       c,
 		Root:       "/",
 		Dir:        *pwd,
-		InheritEnv: []string{"PATH", "PLAN9"},
+		InheritEnv: []string{"PATH", "PLAN9", "LANG"},
 	}
 
 	var err error
